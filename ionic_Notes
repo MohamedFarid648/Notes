@@ -213,6 +213,6 @@ https://forum.ionicframework.com/t/vertical-and-horizontal-center/83204
 https://ionicframework.com/docs/layout/css-utilities
 *********************************************************************************
 
-34.forceOverscroll
+34.forceOverscroll (To prevent ion-content from moving it top-bottom)
 https://beta.ionicframework.com/docs/api/content#properties
 
