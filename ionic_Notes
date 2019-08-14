@@ -199,6 +199,14 @@ getIcon(): SafeUrl {
    return this.domSanitizer.bypassSecurityTrustUrl(`${this.preImgUrl}myData/icon.png`);
  }
 https://angular.io/api/platform-browser/DomSanitizer
+
+
+the same in video:
+
+getVideoUrl(content: Content) {
+       const url = this.webview.convertFileSrc(${this.systemPath}${content.localUrl});
+       return this.domSanitizer.bypassSecurityTrustUrl(url);
+   }
 *********************************************************************************
 31.
 changes in ionic 4
@@ -216,3 +224,15 @@ https://ionicframework.com/docs/layout/css-utilities
 34.forceOverscroll (To prevent ion-content from moving it top-bottom)
 https://beta.ionicframework.com/docs/api/content#properties
 
+*********************************************************************************
+
+35.automatic logout:
+https://www.npmjs.com/package/angular-user-idle
+http://angular-user-idle.rednez.com/
+
+
+
+36.search on gif image
+loading gif generator in google 
+ex:http://www.ajaxload.info/
+https://loading.io/
