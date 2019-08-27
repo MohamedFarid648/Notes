@@ -230,12 +230,25 @@ https://beta.ionicframework.com/docs/api/content#properties
 https://www.npmjs.com/package/angular-user-idle
 http://angular-user-idle.rednez.com/
 
+*********************************************************************************
 
 
 36.search on gif image
 loading gif generator in google 
 ex:http://www.ajaxload.info/
 https://loading.io/
+*********************************************************************************
 
 37.equal-height-columns
 http://getbootstrap.com.vn/examples/equal-height-columns/
+
+*********************************************************************************
+
+38.Push Page
+  1. <ion-button [routerLink]="['/myPage',myValue]"  routerDirection="forward">
+or from  ts:
+  2. constructor(nav:NavController){}
+     pushPage(){
+     nav.goForward(...)
+     }
+
