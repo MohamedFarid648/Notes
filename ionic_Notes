@@ -251,4 +251,12 @@ or from  ts:
      pushPage(){
      nav.goForward(...)
      }
+     
+     
+ 39.ios build error :
+ "cordova-plugin-add-swift-support@2.0.2" does not satisfy dependency plugin requirement "cordova-plugin-add-swift-support@^1.7.1".
+
+sol:
+https://github.com/apache/cordova-ios/issues/407
+ionic cordova build ios -- --buildFlag="-UseModernBuildSystem=0"
 
