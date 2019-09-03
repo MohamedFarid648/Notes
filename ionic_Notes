@@ -260,3 +260,7 @@ sol:
 https://github.com/apache/cordova-ios/issues/407
 ionic cordova build ios -- --buildFlag="-UseModernBuildSystem=0"
 
+
+40.placeholder-text-styling
+https://stackoverflow.com/questions/40091138/ionic-2-placeholder-text-styling
+
