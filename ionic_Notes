@@ -251,7 +251,8 @@ or from  ts:
      pushPage(){
      nav.goForward(...)
      }
-     
+  *********************************************************************************
+
      
  39.ios build error :
  "cordova-plugin-add-swift-support@2.0.2" does not satisfy dependency plugin requirement "cordova-plugin-add-swift-support@^1.7.1".
@@ -260,7 +261,22 @@ sol:
 https://github.com/apache/cordova-ios/issues/407
 ionic cordova build ios -- --buildFlag="-UseModernBuildSystem=0"
 
+*********************************************************************************
 
 40.placeholder-text-styling
 https://stackoverflow.com/questions/40091138/ionic-2-placeholder-text-styling
 
+*********************************************************************************
+
+41.Accept only numbers
+numberOnly(event): boolean {
+        const charCode = (event.which) ? event.which : event.keyCode;
+        if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+          return false;
+        }
+        return true;
+    
+      }
+
+*********************************************************************************
+42.
