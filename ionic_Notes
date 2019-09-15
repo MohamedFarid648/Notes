@@ -288,6 +288,20 @@ myDate.toLocaleString('default', { month: 'long' })
 sudo ionic cordova build ios -- --buildFlag="-UseModernBuildSystem=0"
 
 for error fire base install cordova@8 or cordova@7
+
+for error  The “Swift Language Version” (SWIFT_VERSION) build setting must be set to a supported value for targets which use Swift. Supported values are: 4.0, 4.2, 5.0. This setting can be set in the build settings editor.
+Open your project in Xcode by click on workspace file in platforms >> ios >> PROJECT_NAME.xcworkspace
+
+Go for Build Settings
+
+Now search "Swift Language Version"
+
+Change the version to 4 or 5(whichever required)
+
+run below command
+
+sudo ionic cordova build ios --buildFlag="-UseModernBuildSystem=0"
+
 *********************************************************************************
 
 44.ionic calender
