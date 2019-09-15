@@ -282,3 +282,15 @@ numberOnly(event): boolean {
 42.Get Month Name
 myDate=new Date();
 myDate.toLocaleString('default', { month: 'long' })
+
+43.for error swift or UseModernBuildSystem
+sudo ionic cordova build ios -- --buildFlag="-UseModernBuildSystem=0"
+
+for error fire base install cordova@8 or cordova@7
+
+44.ionic calender
+https://www.npmjs.com/package/ionic2-calendar
+
+or
+
+https://mattlewis92.github.io/angular-calendar/#/kitchen-sink
