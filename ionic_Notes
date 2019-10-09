@@ -1,6 +1,9 @@
 *********************************
 Try your app online : https://appetize.io/upload
 *********************************
+Cordova vs Capacitor:
+https://ionicthemes.com/tutorials/about/native-cross-platform-web-apps-with-ionic-capacitor
+*********************************
 1.Upload Download Files:
 Main Plugin : ionic cordova plugin add cordova-plugin-file-transfer
 compination file to our app and  specify location : ionic cordova plugin add cordova-plugin-file 
