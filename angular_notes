@@ -341,3 +341,17 @@ https://stackoverflow.com/questions/45329307/how-to-add-a-background-image-in-an
 ********************************************************************************
 28.Clone Array of Objects
 https://stackoverflow.com/questions/47776776/how-to-clone-array-of-objects-typescript?rq=1
+
+********************************************************************************
+
+29.AutoComplete search
+
+first : https://material.angular.io/components/autocomplete/examples
+
+in page.module.ts
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
+import { MatFormFieldModule, MatInputModule } from '@angular/material';
+@NgModule({
+    imports: [
+    ..., MatAutocompleteModule, MatFormFieldModule , MatInputModule
+    ],
