@@ -314,3 +314,16 @@ https://devdactic.com/ionic-4-calendar-app/
 or
 
 https://mattlewis92.github.io/angular-calendar/#/kitchen-sink
+
+*********************************************************************************
+45.AutoComplete search
+
+first : https://material.angular.io/components/autocomplete/examples
+
+in page.module.ts
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
+import { MatFormFieldModule, MatInputModule } from '@angular/material';
+@NgModule({
+    imports: [
+    ..., MatAutocompleteModule, MatFormFieldModule , MatInputModule
+    ],
