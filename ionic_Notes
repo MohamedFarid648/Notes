@@ -327,3 +327,7 @@ import { MatFormFieldModule, MatInputModule } from '@angular/material';
     imports: [
     ..., MatAutocompleteModule, MatFormFieldModule , MatInputModule
     ],
+*********************************************************************************
+ 
+ 46. ion button height how to change
+ https://forum.ionicframework.com/t/css4-ion-button-height-how-to-change/141419/11
