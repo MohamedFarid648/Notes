@@ -355,3 +355,12 @@ import { MatFormFieldModule, MatInputModule } from '@angular/material';
     imports: [
     ..., MatAutocompleteModule, MatFormFieldModule , MatInputModule
     ],
+********************************************************************************
+
+30. Design MatFormField CSS
+::ng-deep .mat-form-field {
+
+   .mat-form-field-infix{
+    border: 1px solid gray;
+  }
+}
