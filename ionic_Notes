@@ -335,3 +335,35 @@ import { MatFormFieldModule, MatInputModule } from '@angular/material';
 
 47.EF ionic
 https://typeorm.io/#/
+*********************************************************************************
+48. Validation
+export class MyValidator {
+
+    static textFormat(control: FormControl): ValidationResult {
+
+        const Text_REGEX = /^\S[_A-z0-9]*((-|\s)*[_A-z0-9])*$/gm; 
+        // string without space
+        // https://www.regextester.com/93960
+
+
+        if (control.value === ''  || Text_REGEX.test(control.value)
+        ) {
+            return null;
+        } else {
+            return { 'textPattern': true };
+        }
+    }
+}
+
+in component.ts
+
+ this.myForm = new FormGroup({
+            'myControl': new FormControl(this.Name, Validators.compose([
+                Validators.minLength(1),
+                Validators.maxLength(9),
+                Validators.required,
+                MyValidator.textFormat
+            ])),
+ });
+*********************************************************************************
+
