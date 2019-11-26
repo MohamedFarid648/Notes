@@ -378,5 +378,11 @@ https://stackoverflow.com/questions/54458550/override-toolbar-back-button-action
 50.charts JS
 https://canvasjs.com/docs/charts/chart-options/legend/
 *********************************************************************************
+51.use capacitor to native device features(like camera) on web and desktop:
+  https://capacitor.ionicframework.com/docs/
+*********************************************************************************
 
+52.Format Date
+let x = this.datePipe.transform(date, 'yyyy-MM-dd');
+*********************************************************************************
 
