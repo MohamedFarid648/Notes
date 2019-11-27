@@ -385,4 +385,7 @@ https://canvasjs.com/docs/charts/chart-options/legend/
 52.Format Date
 let x = this.datePipe.transform(date, 'yyyy-MM-dd');
 *********************************************************************************
+53.Update All plugins ionic:
+npm install -g cordova-plugin-update
+sudo cordova-check-plugins --update=auto
 
