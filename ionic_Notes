@@ -388,4 +388,70 @@ let x = this.datePipe.transform(date, 'yyyy-MM-dd');
 53.Update All plugins ionic:
 npm install -g cordova-plugin-update
 sudo cordova-check-plugins --update=auto
+*********************************************************************************
+54.Open HTML
+   openHtml(folderPath) {
+
+        // Docs: https://github.com/apache/cordova-plugin-inappbrowser ,
+        // https://ionicframework.com/docs/enterprise/inappbrowser
+        const options: InAppBrowserOptions = {
+            /** Set to yes or no to turn the InAppBrowser's location bar on or off. */
+            location: 'yes',
+            /** Set to yes to have the browser's cookie cache cleared before the new window is opened. */
+            clearcache: 'yes',
+            clearsessioncache: 'yes',
+
+            hardwareback: 'yes',
+            mediaPlaybackRequiresUserAction: 'yes',
+            hidenavigationbuttons: 'no',
+            hideurlbar: 'no',
+            navigationbuttoncolor: 'red',
+            /** (iOS Only) Set to yes or no (default is no). Turns on/off the UIWebViewBounce property. */
+            disallowoverscroll: 'no',
+            /** (iOS Only) Set to yes or no to turn the toolbar on or off for the InAppBrowser (defaults to yes) */
+            toolbar: 'yes',
+            toolbartranslucent: 'yes',
+            /** (iOS Only)  Set to yes or no to prevent viewport scaling through a meta tag (defaults to no). */
+            enableViewportScale: 'yes',
+            allowInlineMediaPlayback: 'yes',
+            keyboardDisplayRequiresUserAction: 'yes',
+            /** (iOS Only) Set to yes or no to wait until all new view content is received before being rendered (defaults to no). */
+            suppressesIncrementalRendering: 'yes',
+            /** (iOS Only) Set to pagesheet, formsheet or fullscreen to set the presentation style (defaults to fullscreen). */
+            presentationstyle: 'fullscreen', // 'pagesheet' | 'formsheet' | 'fullscreen';
+            /** (iOS Only) Set to fliphorizontal, crossdissolve or coververtical to set the transition style (defaults to coververtical). */
+            // transitionstyle: 'fliphorizontal' | 'crossdissolve' | 'coververtical';
+            /** (iOS Only) Set to top or bottom (default is bottom). Causes the toolbar to be at the top or bottom of the window. */
+            toolbarposition: 'top', // 'top' | 'bottom';
+            /**
+             *  (iOS Only) Set to yes or no to change the visibility of the loading indicator (defaults to no).
+             */
+            hidespinner: 'yes',
+            fullscreen: 'yes'
+        };
+        // const target = '_self'; // openWithCordovaBrowser //open in your app but there is no back button
+        // const target = '_system'; // openWithInAppBrowser ex: open in your app  //in ipad open it in safari
+        const target = '_blank'; // openWithSystemBrowser ex:open in google chrome
+        // ['InAppBrowser'] took '48.303955' ms. Plugin should use a background thread.
+        const browser = this.inAppBrowser.create(folderPath + '/index.html', target, options);
+        browser.on('loaderror').subscribe(res => {
+            console.log('Error Result inAppBrowser :', JSON.stringify(res));
+        });
+        // browser.close();
+        // window.open('http://www.facebook.com', '_system', 'location=yes');
+
+        /* browser.executeScript({file : `${folderPath}/js/jquery.js` });
+         browser.executeScript({file : `${folderPath}/js/main.js` });
+         browser.executeScript({file : `${folderPath}/js/jquery.touchSwipe.min.js` });
+         browser.executeScript({file : `${folderPath}/js/index.js` });
+
+         browser.insertCSS({file: `${folderPath}/css/reset.css`});
+         browser.insertCSS({file: `${folderPath}/css/main.css`});
+         browser.insertCSS({file: `${folderPath}/css/animate.css`});
+         browser.insertCSS({file: `${folderPath}/css/index.css`});*/
+
+        // External Html
+        // const browser2 = this.inAppBrowser.create('https://ionicframework.com/', target, options);
+        // browser2.close();
+    }
 
