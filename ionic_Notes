@@ -454,4 +454,30 @@ sudo cordova-check-plugins --update=auto
         // const browser2 = this.inAppBrowser.create('https://ionicframework.com/', target, options);
         // browser2.close();
     }
+    
+    *********************************************************************************
+
+    55.how-to-set-default-tab
+    https://forum.ionicframework.com/t/how-to-set-default-tab/172270/2
+    const routes: Routes =[
+    {
+    path: "",
+    children: [
+      {
+        path: "page1",
+        children: PAGE1_ROUTES
+      },
+      {
+        path: "",
+        children: PAGE2_ROUTES
+      },
+      {
+        path: "page3",
+        children: PAGE3_ROUTES
+      }
+    ]
+  }];
+  
+    
+    *********************************************************************************
 
