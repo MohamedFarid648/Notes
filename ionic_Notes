@@ -483,4 +483,7 @@ sudo cordova-check-plugins --update=auto
     56.Search in DropDownList
     kendo-dropdownlist
     *********************************************************************************
+    57.
+    https://www.thegeekstuff.com/2016/09/disable-same-origin-policy/
+    *********************************************************************************
 
