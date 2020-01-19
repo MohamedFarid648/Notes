@@ -370,4 +370,37 @@ https://stackoverflow.com/questions/48540533/styling-mat-form-field-input-in-ang
  31.Search in DropDownList
     kendo-dropdownlist
     
-********************************************************************************
+   *********************************************************************************
+  32. Check Network 
+Service : 
+import { Observable, ReplaySubject } from 'rxjs';
+import { Injectable } from '@angular/core';
+/**
+ * Created by adel1 on 12/19/2016.
+ */
+
+@Injectable({
+    providedIn: 'root'
+})
+export class CheckConnection {
+
+    private onlineOffline: ReplaySubject<boolean> = new ReplaySubject<boolean>();
+
+    public get connectionChanged(): Observable<boolean> { return this.onlineOffline; }
+
+    constructor() {
+        this.onlineOffline.next(navigator.onLine);
+        window.addEventListener('online', () => this.onlineOffline.next(true));
+        window.addEventListener('offline', () => this.onlineOffline.next(false) );
+    }
+
+}
+
+
+Component :
+    public isOnline = true;
+    constructor(private checkConn: CheckConnection) {
+        this.checkConn.connectionChanged.subscribe(connStatus => this.isOnline = connStatus);
+}
+
+    *********************************************************************************
