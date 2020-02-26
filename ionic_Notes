@@ -455,9 +455,8 @@ sudo cordova-check-plugins --update=auto
         // browser2.close();
     }
     
-    *********************************************************************************
-
-    55.how-to-set-default-tab
+*********************************************************************************
+55.how-to-set-default-tab
     https://forum.ionicframework.com/t/how-to-set-default-tab/172270/2
     const routes: Routes =[
     {
@@ -479,14 +478,14 @@ sudo cordova-check-plugins --update=auto
   }];
   
     
-    *********************************************************************************
-    56.Search in DropDownList
+*********************************************************************************
+56.Search in DropDownList
     kendo-dropdownlist
-    *********************************************************************************
-    57.Unsecure Google (disable-same-origin-policy)
+*********************************************************************************
+57.Unsecure Google (disable-same-origin-policy)
     https://www.thegeekstuff.com/2016/09/disable-same-origin-policy/
-    *********************************************************************************
-  58. Check Network 
+*********************************************************************************
+58. Check Network 
 Service : 
 import { Observable, ReplaySubject } from 'rxjs';
 import { Injectable } from '@angular/core';
@@ -518,4 +517,9 @@ Component :
         this.checkConn.connectionChanged.subscribe(connStatus => this.isOnline = connStatus);
 }
 
-    *********************************************************************************
+*********************************************************************************
+59.Electron:
+
+https://www.youtube.com/watch?v=Rj1YcpZbKDg
+https://www.9lessons.info/2018/10/ionic-electron-desktop-app.html
+*********************************************************************************
