@@ -370,7 +370,7 @@ https://stackoverflow.com/questions/48540533/styling-mat-form-field-input-in-ang
  31.Search in DropDownList
     kendo-dropdownlist
     
-   *********************************************************************************
+ *********************************************************************************
   32. Check Network 
 Service : 
 import { Observable, ReplaySubject } from 'rxjs';
@@ -403,4 +403,7 @@ Component :
         this.checkConn.connectionChanged.subscribe(connStatus => this.isOnline = connStatus);
 }
 
-    *********************************************************************************
+*********************************************************************************
+ 33.Get Distinct values from Array of Objects
+https://stackoverflow.com/questions/38206915/filter-out-array-to-have-only-unique-values
+*********************************************************************************
