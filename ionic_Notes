@@ -532,3 +532,16 @@ https://github.com/coreui/coreui-react/issues/55
 61.Get Distinct values from Array of Objects
 https://stackoverflow.com/questions/38206915/filter-out-array-to-have-only-unique-values
 *********************************************************************************
+62.To disable black background in android
+
+if(this.platform.is('android')) {
+  this.statusBar.backgroundColorByHexString('#fff');
+}
+or
+if(this.platform.is('android')) {
+  this.statusBar.styleBlackOpaque();
+}
+or
+if(this.platform.is('android')) {
+  this.statusBar.styleLightContent();
+}
