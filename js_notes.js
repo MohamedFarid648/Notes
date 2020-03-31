@@ -18,3 +18,8 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 https://www.youtube.com/watch?v=LaQEIem7uPk
 
+set your projects in folder :
+git init
+git add .
+heroku login
+heroku apps:create myapp-name
