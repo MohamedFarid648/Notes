@@ -14,3 +14,7 @@ https://www.learnrxjs.io/operators/transformation/map.html
 4.Sum elements in array(ts)
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
 
+5.Deploy a Static HTML Site to Heroku
+
+https://www.youtube.com/watch?v=LaQEIem7uPk
+
