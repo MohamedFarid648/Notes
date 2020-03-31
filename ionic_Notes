@@ -545,3 +545,7 @@ or
 if(this.platform.is('android')) {
   this.statusBar.styleLightContent();
 }
+*********************************************************************************
+63.Deploy a Static HTML Site to Heroku
+
+https://www.youtube.com/watch?v=LaQEIem7uPk
