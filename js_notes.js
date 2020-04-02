@@ -41,7 +41,7 @@ var msec =dt2-dt1;
     var days = Math.floor(hrs / 24);
 
     var yrs = Math.floor(days / 365);
- mins = mins % 60;
-hrs = hrs % 24;
-days = days % 365;
+    mins = mins % 60;
+    hrs = hrs % 24;
+    days = days % 365;
 
