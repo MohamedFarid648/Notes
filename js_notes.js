@@ -45,3 +45,4 @@ var msec =dt2-dt1;
     hrs = hrs % 24;
     days = days % 365;
 
+https://jsfiddle.net/user2314737/jr5jkv1p/
