@@ -23,3 +23,8 @@ git init
 git add .
 heroku login
 heroku apps:create myapp-name
+
+6.Using Data tables
+
+https://datatables.net/
+
