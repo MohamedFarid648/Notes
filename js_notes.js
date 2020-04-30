@@ -46,3 +46,8 @@ var msec =dt2-dt1;
     days = days % 365;
 
 https://jsfiddle.net/user2314737/jr5jkv1p/
+
+
+
+9.convert float to int
+https://stackoverflow.com/questions/596467/how-do-i-convert-a-float-number-to-a-whole-number-in-javascript
