@@ -51,3 +51,8 @@ https://jsfiddle.net/user2314737/jr5jkv1p/
 
 9.convert float to int
 https://stackoverflow.com/questions/596467/how-do-i-convert-a-float-number-to-a-whole-number-in-javascript
+
+
+10.diff between promise and obseravable
+
+https://stackoverflow.com/questions/37364973/what-is-the-difference-between-promises-and-observables
