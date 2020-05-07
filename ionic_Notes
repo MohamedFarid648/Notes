@@ -549,3 +549,9 @@ if(this.platform.is('android')) {
 63.Deploy a Static HTML Site to Heroku
 
 https://www.youtube.com/watch?v=LaQEIem7uPk
+*********************************************************************************
+
+64.diff between promise and obseravable
+
+https://stackoverflow.com/questions/37364973/what-is-the-difference-between-promises-and-observables
+*********************************************************************************
