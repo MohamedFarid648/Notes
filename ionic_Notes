@@ -555,3 +555,7 @@ https://www.youtube.com/watch?v=LaQEIem7uPk
 
 https://stackoverflow.com/questions/37364973/what-is-the-difference-between-promises-and-observables
 *********************************************************************************
+65.Get Day Name
+      
+       let d1 = new Date(customStringDate);
+     let dayName= d1.toLocaleString('en-US', {weekday: 'long' });
