@@ -559,3 +559,8 @@ https://stackoverflow.com/questions/37364973/what-is-the-difference-between-prom
       
        let d1 = new Date(customStringDate);
      let dayName= d1.toLocaleString('en-US', {weekday: 'long' });
+*********************************************************************************
+
+66.Ngx Charts
+https://swimlane.gitbook.io/ngx-charts/examples/line-area-charts/line-chart
+*********************************************************************************
