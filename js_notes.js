@@ -56,3 +56,7 @@ https://stackoverflow.com/questions/596467/how-do-i-convert-a-float-number-to-a-
 10.diff between promise and obseravable
 
 https://stackoverflow.com/questions/37364973/what-is-the-difference-between-promises-and-observables
+
+
+11.if javascript is single threaded how is it asynchronous
+https://dev.to/steelvoltage/if-javascript-is-single-threaded-how-is-it-asynchronous-56gd
