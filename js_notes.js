@@ -58,7 +58,14 @@ https://stackoverflow.com/questions/596467/how-do-i-convert-a-float-number-to-a-
 https://stackoverflow.com/questions/37364973/what-is-the-difference-between-promises-and-observables
 
 
-11.if javascript is single threaded how is it asynchronous
+11.Blocking vs Non Blocking  in Js
+https://nodejs.org/en/docs/guides/blocking-vs-non-blocking/
+
+
+if javascript is single threaded how is it asynchronous ? 
+
 https://dev.to/steelvoltage/if-javascript-is-single-threaded-how-is-it-asynchronous-56gd
+
 ex:
 http://latentflip.com/loupe
+
