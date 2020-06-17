@@ -90,9 +90,12 @@ gcloud compute firewall-rules create allow-mongodb --allow tcp:27017
 c.find external ip (compute engine) :
 https://console.cloud.google.com/compute/instances?project={{Project Id}}&authuser=1&orgonly=true&supportedpurview=organizationId&instancessize=50
 
-d.
-//const mongoDBUrl = "mongodb+srv://userName:Pass@cluster0-tgsxd.gcp.mongodb.net/dbName?retryWrites=true&w=majority";
+d.create mongodb :
+https://cloud.mongodb.com/v2
+
+e.//const mongoDBUrl = "mongodb+srv://userName:Pass@cluster0-tgsxd.gcp.mongodb.net/dbName?retryWrites=true&w=majority";
 //from https://cloud.mongodb.com/v2/5e98b209b4f9347c0e3598d0#metrics/replicaSet/5ee8c04f75243c067d52ea0d/explorer
 or
 //const mongoDBUrl = 'mongodb://external IP:27017/dbName';
+
 ************************************************************************************************************************
