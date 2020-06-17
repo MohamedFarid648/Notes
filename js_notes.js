@@ -33,6 +33,8 @@ heroku apps:create myapp-name
 
 https://datatables.net/
 
+and Export them to(pdf,excel,...):
+https://datatables.net/extensions/buttons/examples/initialisation/export.html
 ************************************************************************************************************************
 
 
