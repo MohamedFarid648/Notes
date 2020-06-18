@@ -101,3 +101,5 @@ or
 //const mongoDBUrl = 'mongodb://external IP:27017/dbName';
 
 ************************************************************************************************************************
+13.javascript closures
+https://www.pluralsight.com/guides/javascript-closures
