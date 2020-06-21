@@ -103,3 +103,6 @@ or
 ************************************************************************************************************************
 13.javascript closures
 https://www.pluralsight.com/guides/javascript-closures
+************************************************************************************************************************
+14.check if date is greater than or equal another one
+https://stackoverflow.com/questions/8215556/how-to-check-if-input-date-is-equal-to-todays-date
