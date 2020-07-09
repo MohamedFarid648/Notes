@@ -410,3 +410,9 @@ https://stackoverflow.com/questions/38206915/filter-out-array-to-have-only-uniqu
 34.Publish app online
 https://devdactic.com/host-ionic-website-firebase/
 https://ionicframework.com/docs/angular/pwa
+
+*********************************************************************************
+35. Export Data To Excel
+https://www.npmjs.com/package/angular5-csv
+
+https://www.infragistics.com/products/ignite-ui-angular/angular/components/exporter_csv.html
