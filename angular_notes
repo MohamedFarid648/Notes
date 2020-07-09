@@ -416,3 +416,10 @@ https://ionicframework.com/docs/angular/pwa
 https://www.npmjs.com/package/angular5-csv
 
 https://www.infragistics.com/products/ignite-ui-angular/angular/components/exporter_csv.html
+
+
+***************
+37.
+ng g module [module-name] --routing will create the module and add the mappings/metadata linkings.
+
+ ng g component [fullpath+name]   --export 
