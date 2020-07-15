@@ -424,7 +424,10 @@ ng g module [module-name] --routing will create the module and add the mappings/
 
  ng g component [fullpath+name]   --export 
  
- ***********************************************************************************
- 
- 38. Add array of formControl
+**********************************************************************************
+38. Add array of formControl
 https://www.digitalocean.com/community/tutorials/angular-reactive-forms-formarray-dynamic-fields
+************************************************************************************
+39. display flex
+https://getbootstrap.com/docs/4.0/utilities/flex/
+
