@@ -578,3 +578,7 @@ https://stackoverflow.com/questions/8215556/how-to-check-if-input-date-is-equal-
 import {File} from '@ionic-native/file/ngx'
 constructor(file:File){}
 this.file.removeRecursiveley()
+**********************************************************************************
+71.For remotely debugging and testing your JavaScript
+http://www.vorlonjs.io/#demo
+
