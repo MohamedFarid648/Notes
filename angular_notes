@@ -437,4 +437,7 @@ https://stackoverflow.com/questions/58267153/getting-error-cannot-read-property-
 ******************************************************************************
 41.ngx-spinner
 import { NgxSpinnerService } from 'ngx-spinner';
+******************************************************************************
+42.stepper(multiple forms as one form)
+https://akveo.github.io/nebular/docs/components/stepper/overview/#nbsteppercomponent
 
