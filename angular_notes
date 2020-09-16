@@ -440,4 +440,8 @@ import { NgxSpinnerService } from 'ngx-spinner';
 ******************************************************************************
 42.stepper(multiple forms as one form)
 https://akveo.github.io/nebular/docs/components/stepper/overview/#nbsteppercomponent
+******************************************************************************
+43.Angular files
+https://stackoverflow.com/questions/47936183/angular-file-upload
+******************************************************************************
 
