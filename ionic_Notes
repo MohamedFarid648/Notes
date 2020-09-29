@@ -581,4 +581,6 @@ this.file.removeRecursiveley()
 **********************************************************************************
 71.For remotely debugging and testing your JavaScript
 http://www.vorlonjs.io/#demo
-
+**********************************************************************************
+72.Ionic Security
+https://www.joshmorony.com/basic-security-for-ionic-cordova-applications/
