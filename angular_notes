@@ -444,4 +444,11 @@ https://akveo.github.io/nebular/docs/components/stepper/overview/#nbsteppercompo
 43.Angular files
 https://stackoverflow.com/questions/47936183/angular-file-upload
 ******************************************************************************
+44.publish angular app to firebase
+In the terminal:
+$ ng build --prod
+$ npm install -g firebase-tools
+$ firebase login
+$ firebase init
+$ firebase deploy
 
