@@ -451,4 +451,7 @@ $ npm install -g firebase-tools
 $ firebase login
 $ firebase init
 $ firebase deploy
+******************************************************************************
+45.can't push refs to remote vscode
 
+remove "prepush": "npm run lint:ci" in packege.json
