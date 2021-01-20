@@ -455,3 +455,8 @@ $ firebase deploy
 45.can't push refs to remote vscode
 
 remove "prepush": "npm run lint:ci" in packege.json
+******************************************************************************
+
+46.Passing data to child component after parent initialisation
+
+https://stackoverflow.com/questions/41169281/angular-2-passing-data-to-child-component-after-parent-initialisation
