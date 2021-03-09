@@ -460,3 +460,12 @@ remove "prepush": "npm run lint:ci" in packege.json
 46.Passing data to child component after parent initialisation
 
 https://stackoverflow.com/questions/41169281/angular-2-passing-data-to-child-component-after-parent-initialisation
+******************************************************************************
+47.Update all packages in package.json:
+
+npm i -g npm-check-updates
+ncu -u
+npm install
+
+https://flaviocopes.com/update-npm-dependencies/
+******************************************************************************
