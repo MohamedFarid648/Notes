@@ -584,3 +584,9 @@ http://www.vorlonjs.io/#demo
 **********************************************************************************
 72.Ionic Security
 https://www.joshmorony.com/basic-security-for-ionic-cordova-applications/
+**********************************************************************************
+73.Using capacitor
+ionic integrations enable capacitor
+npm install @capacitor/android
+ionic capacitor build android
+**********************************************************************************
