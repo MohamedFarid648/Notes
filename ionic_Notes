@@ -588,5 +588,11 @@ https://www.joshmorony.com/basic-security-for-ionic-cordova-applications/
 73.Using capacitor
 ionic integrations enable capacitor
 npm install @capacitor/android
-ionic capacitor build android
+npm install @capacitor/cli@latest @capacitor/core@latest
+npx cap add android
+ionic capacitor build android --prod
+npx cap copy android
+
+
+
 **********************************************************************************
