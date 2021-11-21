@@ -594,9 +594,17 @@ npx cap add android
 ionic capacitor build android --prod
 npx cap copy android
 
-
-
 **********************************************************************************
 74. ionic 5 guard example
 
- https://devdactic.com/ionic-5-navigation-with-login/
+ https://devdactic.com/ionic-5-navigation-with-login
+ 
+**********************************************************************************
+ 
+ 75.Calculate age in typescript:
+https://stackoverflow.com/questions/41792026/how-do-i-calculate-age-from-birth-date-in-angular-2-using-typescript
+
+moment().diff(birthdate, 'years');
+
+
+**********************************************************************************
