@@ -611,3 +611,8 @@ moment().diff(birthdate, 'years');
 
 76. get value from formcontrol on child component
 https://blog.profanis.me/blog/reactive-forms-in-parent-child-components
+
+ add
+        FormsModule,
+        ReactiveFormsModule,
+To your SharedComponentModule 
