@@ -594,6 +594,8 @@ npx cap add android
 ionic capacitor build android --prod
 npx cap copy android
 
+Error:
+https://stackoverflow.com/questions/62678785/android-support-plugin-for-intellij-idea-or-android-studio-cannot-open-this-pr
 **********************************************************************************
 74. ionic 5 guard example
 
