@@ -594,6 +594,9 @@ npx cap add android
 ionic capacitor build android --prod
 npx cap copy android
 
+add resources:
+https://stackoverflow.com/questions/60549868/ionic-5-how-to-replace-default-icon-and-splash-screen-image-and-generate-resou
+
 Error:
 https://stackoverflow.com/questions/62678785/android-support-plugin-for-intellij-idea-or-android-studio-cannot-open-this-pr
 **********************************************************************************
