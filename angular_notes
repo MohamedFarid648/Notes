@@ -469,3 +469,13 @@ npm install
 
 https://flaviocopes.com/update-npm-dependencies/
 ******************************************************************************
+48.Update Angular Project
+# Install npm-check-updates
+$ npm i -g npm-check-updates
+
+# Run npm-check-updates with -u, will upgrade package.json
+$ ncu -u
+
+# Install updated packages
+$ npm install
+
