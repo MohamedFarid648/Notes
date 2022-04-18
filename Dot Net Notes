@@ -1,7 +1,11 @@
 1.Confirm Email
 https://www.yogihosting.com/aspnet-core-identity-email-confirmation/
-********************************************
-2.random-password-generator-asp-net-core-mvc
+************************************************************************************************************************************
+2.Get Days in month 
+https://stackoverflow.com/questions/4832468/getting-number-of-days-in-a-month
+************************************************************************************************************************************
+
+3.random-password-generator-asp-net-core-mvc
 https://www.ryadel.com/en/c-sharp-random-password-generator-asp-net-core-mvc/
   private string GenerateRandomPassword(PasswordOptions opts = null)
         {
