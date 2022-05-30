@@ -590,9 +590,20 @@ https://www.joshmorony.com/basic-security-for-ionic-cordova-applications/
 ionic integrations enable capacitor
 npm install @capacitor/android
 npm install @capacitor/cli@latest @capacitor/core@latest
+
 npx cap add android
-ionic capacitor build android --prod
-npx cap copy android
+//create www folder
+npm run build
+//copy it to native project(android,ios)
+npx cap copy
+
+(or) npx cap copy android
+
+//open it
+npx cap open android
+
+
+//ionic capacitor build android --prod
 
 add resources:
 https://stackoverflow.com/questions/60549868/ionic-5-how-to-replace-default-icon-and-splash-screen-image-and-generate-resou
