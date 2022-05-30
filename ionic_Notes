@@ -591,13 +591,21 @@ ionic integrations enable capacitor
 npm install @capacitor/android
 npm install @capacitor/cli@latest @capacitor/core@latest
 
+//create android folder
 npx cap add android
+
 //create www folder
 npm run build
+
 //copy it to native project(android,ios)
 npx cap copy
 
 (or) npx cap copy android
+
+//add resources
+cordova-res --skip-config --copy
+(or)
+npm run resources
 
 //open it
 npx cap open android
