@@ -591,30 +591,48 @@ ionic integrations enable capacitor
 npm install @capacitor/android
 npm install @capacitor/cli@latest @capacitor/core@latest
 
-//create android folder
-npx cap add android
 
-//create www folder
+//1.create www folder
 npm run build
 
-//copy it to native project(android,ios)
+
+//2.create android folder
+npx cap add android
+
+//3.copy it to native project(android,ios)
 npx cap copy
 
 (or) npx cap copy android
 
-//add resources
+//4.add resources
 cordova-res --skip-config --copy
 (or)
 npm run resources
 
-//open it
+//5.Add the required icon-foreground.png and icon-background.png to the resources/android directory
+//6.Do num 4 again
+
+//7.open it
 npx cap open android
+
+//8.
+Change to
+
+distributionUrl=https\://services.gradle.org/distributions/gradle-6.1.1-all.zip
+in file gradle-wrapper.properties, and then change to
+
+classpath 'com.android.tools.build:gradle:4.0.1'
+in file build.gradle (Project)
 
 
 //ionic capacitor build android --prod
 
 add resources:
 https://stackoverflow.com/questions/60549868/ionic-5-how-to-replace-default-icon-and-splash-screen-image-and-generate-resou
+
+Error in adding resources:
+Error occurred while copying resources/android/icon/mdpi-foreground.png
+sol: https://stackoverflow.com/questions/66026629/error-occurred-while-copying-resources-android-icon-mdpi-foreground-png
 
 Error:
 https://stackoverflow.com/questions/62678785/android-support-plugin-for-intellij-idea-or-android-studio-cannot-open-this-pr
