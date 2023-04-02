@@ -607,7 +607,9 @@ npx cap copy
 //4.add resources
 cordova-res --skip-config --copy
 (or)
-npm run resources
+npm run resources-icon
+npm run resources-splash
+npm run build-android
 
 //5.Add the required icon-foreground.png and icon-background.png to the resources/android directory
 //6.Do num 4 again
