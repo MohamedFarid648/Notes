@@ -668,3 +668,6 @@ To your SharedComponentModule
         const finalResult = result.charAt(0).toUpperCase() + result.slice(1);
         return finalResult;
     }
+********************************************
+78.DatePickerPopupInIonic6
+https://www.damirscorner.com/blog/posts/20220107-DatePickerPopupInIonic6.html
